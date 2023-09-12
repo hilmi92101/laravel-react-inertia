@@ -5,8 +5,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-
-use App\Http\Controllers\Landing\HomeController;
+use App\Http\Controllers\Landing\PagesController as LandingPagesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,8 +17,8 @@ use App\Http\Controllers\Landing\HomeController;
 |
 */
 
-Route::get('/', [HomeController::class, 'page'])->name('landing.home');
-Route::get('/about', [HomeController::class, 'about'])->name('landing.about');
+Route::get('/', [LandingPagesController::class, 'home'])->name('landing.home');
+Route::get('/about', [LandingPagesController::class, 'about'])->name('landing.about');
 
 // Route::get('/', function () {
 //     return Inertia::render('Welcome', [

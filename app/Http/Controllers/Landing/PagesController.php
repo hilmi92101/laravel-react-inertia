@@ -8,12 +8,12 @@ use Illuminate\Http\Request;
 use Inertia\Inertia;
 use Inertia\Response;
 
-class HomeController extends Controller
+class PagesController extends Controller
 {
     /**
      * Display the home page view.
      */
-    public function page(): Response
+    public function home(): Response
     {
         return Inertia::render('Landing/Home');
     }
