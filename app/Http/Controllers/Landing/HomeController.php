@@ -17,4 +17,13 @@ class HomeController extends Controller
     {
         return Inertia::render('Landing/Home');
     }
+
+    /**
+     * Display the home page view.
+     */
+    public function about(): Response
+    {
+        return Inertia::render('Landing/About');
+    }
+
 }

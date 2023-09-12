@@ -19,6 +19,7 @@ use App\Http\Controllers\Landing\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'page'])->name('landing.home');
+Route::get('/about', [HomeController::class, 'about'])->name('landing.about');
 
 // Route::get('/', function () {
 //     return Inertia::render('Welcome', [
