@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 use App\Http\Controllers\Landing\PagesController as LandingPagesController;
+use App\Http\Controllers\BasicReact\PagesController as BasicReactPagesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +20,8 @@ use App\Http\Controllers\Landing\PagesController as LandingPagesController;
 
 Route::get('/', [LandingPagesController::class, 'home'])->name('landing.home');
 Route::get('/about', [LandingPagesController::class, 'about'])->name('landing.about');
+
+Route::get('/basic-react', [BasicReactPagesController::class, 'index'])->name('basic-react.index');
 
 // Route::get('/', function () {
 //     return Inertia::render('Welcome', [
