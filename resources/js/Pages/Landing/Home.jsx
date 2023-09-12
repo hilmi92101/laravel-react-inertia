@@ -1,16 +1,13 @@
 import React from 'react';
-import { router } from '@inertiajs/react';
+import { goToRoute, someOtherFunction } from '@/Modules/Helpers'; 
 
 const Index = () => {
     
-    const handleClick = routeName => {
-        router.visit(route(routeName), { method: 'get' }) 
-    };
-
     return (
         <div>
             <h1>This is the Index page</h1><br />
-            <button onClick={() => handleClick('landing.about')}>Go to About page</button>
+            <button onClick={() => goToRoute('landing.about')}>Go to About page</button><br />
+            <button onClick={() => someOtherFunction()}>Test</button>
         </div>
     );
 };
