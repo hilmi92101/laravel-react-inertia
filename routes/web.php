@@ -22,6 +22,9 @@ Route::get('/', [LandingPagesController::class, 'home'])->name('landing.home');
 Route::get('/about', [LandingPagesController::class, 'about'])->name('landing.about');
 
 Route::get('/basic-react', [BasicReactPagesController::class, 'index'])->name('basic-react.index');
+Route::get('/basic-react/functional-component', [BasicReactPagesController::class, 'functionalComponent'])->name('basic-react.functional-component');
+Route::get('/basic-react/class-component', [BasicReactPagesController::class, 'classComponent'])->name('basic-react.class-component');
+Route::get('/basic-react/children-props-component', [BasicReactPagesController::class, 'childrenPropsComponent'])->name('basic-react.children-props-component');
 
 // Route::get('/', function () {
 //     return Inertia::render('Welcome', [
