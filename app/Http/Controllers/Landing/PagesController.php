@@ -15,7 +15,7 @@ class PagesController extends Controller
      */
     public function home(): Response
     {
-        return Inertia::render('Landing/Home');
+        return Inertia::render('Landing/Index');
     }
 
     /**

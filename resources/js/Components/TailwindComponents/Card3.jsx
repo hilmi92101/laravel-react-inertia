@@ -1,3 +1,5 @@
+// this card component support children
+
 import { goToRoute, someOtherFunction } from '@/Modules/Helpers';
 
 export const Card3 = ({ text, route, children }) => (

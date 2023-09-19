@@ -1,12 +1,13 @@
 import React from 'react';
 
 import Layout from '@/Layouts/BasicReactLayout';
+import Header2 from '@/Components/TailwindComponents/Header2';
 
 const FunctionalComponent = () => {
 
     return (
         <Layout>
-            <h1>Example of Functional Component</h1>
+            <Header2 text="Example of Functional Component" />
         </Layout>
     );
 };
