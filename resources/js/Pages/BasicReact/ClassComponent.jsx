@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
 import Layout from '@/Layouts/BasicReactLayout';
-import Header2 from '@/Components/TailwindComponents/Header2';
+import Header3 from '@/Components/TailwindComponents/Header3';
 
 class ClassComponent extends Component {
     render() {
         return (
             <Layout>
-                <Header2 text="Example of Class Component" />
+                <Header3 text='Example: Class Component' />
             </Layout>
         );
     }
