@@ -27,6 +27,7 @@ Route::prefix('basic-react')->group(function () {
     Route::get('/functional-component', [BasicReactPagesController::class, 'functionalComponent'])->name('basic-react.functional-component');
     Route::get('/class-component', [BasicReactPagesController::class, 'classComponent'])->name('basic-react.class-component');
     Route::get('/children-props-component', [BasicReactPagesController::class, 'childrenPropsComponent'])->name('basic-react.children-props-component');
+    Route::get('/use-state-component', [BasicReactPagesController::class, 'useStateComponent'])->name('basic-react.use-state-component');
 });
 
 Route::prefix('tailwindcss-components')->group(function () {

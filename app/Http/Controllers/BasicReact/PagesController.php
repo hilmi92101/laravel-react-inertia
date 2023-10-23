@@ -41,4 +41,12 @@ class PagesController extends Controller
     {
         return Inertia::render('BasicReact/ChildrenPropsComponent');
     }
+
+    /**
+     * Display the hook: useState page view.
+     */
+    public function useStateComponent(): Response
+    {
+        return Inertia::render('BasicReact/UseStateComponent');
+    }
 }

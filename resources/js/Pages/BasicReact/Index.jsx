@@ -15,6 +15,7 @@ const Index = () => {
                     <Card3 text="Functional Component" route="basic-react.functional-component" />
                     <Card3 text="Class Component" route="basic-react.class-component" />
                     <Card3 text="Children Props Component" route="basic-react.children-props-component" />
+                    <Card3 text="Hook: useState" route="basic-react.use-state-component" />
                 </div>
             </Container1>
             
