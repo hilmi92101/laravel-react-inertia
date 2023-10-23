@@ -13,7 +13,7 @@ const Index = () => {
                 <Header3 text='Tailwind CSS Components' />
                 <Container1>
                     <div className="grid grid-cols-2 gap-4">
-                        <Card3 text="Card 3" route="#" />
+                        <Card3 text="Card" route="#" />
                     </div>
                     
                 </Container1>

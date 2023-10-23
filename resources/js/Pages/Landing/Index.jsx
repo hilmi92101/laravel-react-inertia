@@ -14,6 +14,7 @@ const Index = () => {
                 <div className="grid grid-cols-2 gap-4">
                     <Card3 text="Basic React" route="basic-react.index" />
                     <Card3 text="Tailwind CSS Components" route="tailwindcss-components.index" />
+                    <Card3 text="React Plugins/Packages" route="tailwindcss-components.index" />
                 </div>
                 
             </Container1>
